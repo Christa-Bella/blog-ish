@@ -1,0 +1,91 @@
+html{
+	background-color:GoldenRod;
+	display:block;
+	width:100%;
+}
+body{
+	display:block;
+	font-family:"Calibri body", "Cursive", "Helvetica", "Sans serif";
+	font-size:20px;
+	margin-left:auto;
+	margin-right:auto;
+	width:100%;
+}
+header{
+	font-style:italic;
+	display:block;
+	color:Gold;
+}
+
+h1{
+	text-align:center;
+	font-style:italic;
+	display:block;
+	color:Gold;
+}
+
+nav ul{
+	list-style-type:none;
+	display:block;
+	font-style:italic;
+}
+nav ul li a:link{color:#FFFACD}
+nav ul li a:visited{color:#808000}
+nav ul li a:hover{color:#FFFF00}
+nav ul li a{
+	padding:20px;
+	font-size:16px;
+	display:inline-block;
+	float:left;
+}
+main a:link{color:#00FF7F}
+main{
+	display:block;
+	float:left;
+	font-family:"Calibri body", "Cursive", "Helvetica", "Sans serif";
+	font-size:15px;
+	color:#FFF5EE
+}
+.container{
+	display:flex;
+	justify-content:space-between;
+}
+
+.column{
+	width:48%;
+	padding:10px;
+}
+
+/*for mobile phones*/
+@media(max-width:480px){
+	body{
+		font-size:12px;
+	}
+}
+
+@media only screen and (max-width:700px){
+	.responsive{
+		width:100%;
+}}
+
+.responsive-img{
+	width:100%;
+	height:auto;
+	display:block;
+}
+
+.container{
+	max-width:100%;
+	overflow:hidden;
+}
+footer{
+	display:block;
+	font-style:italic;
+	font-size:14px;
+	background-color:#FFFFFO
+
+}
+footer a:link{
+color:#FOE68c}
+footer a:hover{color:#00FF00}
+	
